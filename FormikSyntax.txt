@@ -1,0 +1,14 @@
+//importing
+import {Formik,useFormik,Form,Field,ErrorMessage} from 'formik'
+
+<Formik
+initialValues={obj}
+onSubmit={(values,{resetForm})=>{
+    *after completion*
+    //to reset
+    resetForm({values:''})
+    
+}}
+>
+
+</Formik>
